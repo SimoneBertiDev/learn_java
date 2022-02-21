@@ -67,7 +67,7 @@ public class Main {
                                 inline += scanner.nextLine();
                             }
                             String json = inline.replace("gander", "gender");
-//                MyPojo[] pojos = objectMapper.readValue(json, MyPojo[].class);
+                            //                MyPojo[] pojos = objectMapper.readValue(json, MyPojo[].class);
 
                             ObjectMapper cm = new ObjectMapper();
                             SinglePerson[] id = cm.readValue(json, SinglePerson[].class);
@@ -81,6 +81,7 @@ public class Main {
                                 System.out.println(id[i].hair_color);
                                 System.out.println();*/
                                 System.out.println(id[i].toString());
+                                System.out.println();
                             }
                         }
                     } catch (Exception ex) {
@@ -94,7 +95,7 @@ public class Main {
                     int n2 = sc.nextInt();
                     System.out.println("Operando");
                     String operando = sc.next();
-                    switch (operando){
+                    switch (operando) {
                         case "+":
                             System.out.println(n1 + n2);
                             break;
