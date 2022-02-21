@@ -11,7 +11,7 @@ public class Calcolatore {
         Scanner sc = new Scanner(System.in);
         double a = sc.nextDouble();
         double b = sc.nextDouble();
-        
+
         System.out.println(c.somma(a, b));
         c.divisione(a, b);
         c.moltiplicazione(a, b);

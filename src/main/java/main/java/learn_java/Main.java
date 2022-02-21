@@ -93,7 +93,7 @@ public class Main {
                     int n2 = sc.nextInt();
                     System.out.println("Operando");
                     String operando = sc.next();
-                    switch (operando){
+                    switch (operando) {
                         case "+":
                             System.out.println(n1 + n2);
                             break;
