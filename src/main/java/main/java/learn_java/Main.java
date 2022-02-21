@@ -1,4 +1,4 @@
-package learn_java;
+package main.java.learn_java;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
