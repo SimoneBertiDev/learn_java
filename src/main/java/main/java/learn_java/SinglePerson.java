@@ -101,8 +101,8 @@ public class SinglePerson {
 
     @Override
     public String toString() {
-//        return super.toString("id:" + getId() + "\nname:" + name + "\ngender:" + gender + "\nage:" + age + "\neye_color:" +eye_color + "\nhair_color:" + hair_color + "\nfilms:" + films + "\nspecies:" + species + "\nurl:" + url);
-        return super.toString();
+//        return super.toString("id:" + id + "\nname:" + name + "\ngender:" + gender + "\nage:" + age + "\neye_color:" +eye_color + "\nhair_color:" + hair_color + "\nfilms:" + films + "\nspecies:" + species + "\nurl:" + url);
+        return "id:" + id + "\nname:" + name + "\ngender:" + gender + "\nage:" + age + "\neye_color:" +eye_color + "\nhair_color:" + hair_color + "\nfilms:" + films + "\nspecies:" + species + "\nurl:" + url;
     }
 }
 

@@ -18,4 +18,8 @@ public class Calcolatrice {
         return a * b;
     }
 
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }

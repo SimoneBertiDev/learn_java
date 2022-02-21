@@ -49,7 +49,7 @@ public class Main {
                 case "StudioGhibli":
                     try {
                         String idPerson = sc.nextLine();
-                        sc.close();
+                        //sc.close();
                         URL url = new URL("https://ghibliapi.herokuapp.com/people/" + idPerson);
                         HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                         conn.setRequestMethod("GET");
@@ -74,12 +74,13 @@ public class Main {
                             var j = id.length;
                             System.out.println(j);
                             for (int i = 0; i < j; i++) {
-                                System.out.println(id[i].name);
+                               /* System.out.println(id[i].name);
                                 System.out.println(id[i].gender);
                                 System.out.println(id[i].age);
                                 System.out.println(id[i].eye_color);
                                 System.out.println(id[i].hair_color);
-                                System.out.println();
+                                System.out.println();*/
+                                System.out.println(id[i].toString());
                             }
                         }
                     } catch (Exception ex) {
@@ -93,7 +94,7 @@ public class Main {
                     int n2 = sc.nextInt();
                     System.out.println("Operando");
                     String operando = sc.next();
-                    switch (operando) {
+                    switch (operando){
                         case "+":
                             System.out.println(n1 + n2);
                             break;
